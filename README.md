@@ -28,4 +28,4 @@
 
 - Not mobile-compatible; desktop-only for laptop and desktop computers
 - Cross-browser compatible with current versions of Firefox, Chrome, Edge, and Opera, as well as Internet Explorer 11
-- Eye image in the lower-right not centered on the retina of the eye as seen in the design mock-up (could not determine how to achieve proper centering without modifying the source image file)
+- Eye image in the lower-right not centered on the iris of the eye as seen in the design mock-up (could not determine how to achieve proper centering without modifying the source image file)
