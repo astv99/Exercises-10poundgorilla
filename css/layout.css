@@ -1,0 +1,140 @@
+/*-------------------------------------------------
+    FOR YOUR HELP
+
+    Font Family Used: Open Sans
+    Font Weights Used: 300, 400, and 600
+    
+    Font Sizes/Weights:
+    Banner: 70px/600
+    Titles: 45px/600
+    Subtitle: 30px/300
+    Boxes: 45px/600
+    Body Copy: 18px/400;
+
+    Colors:
+    Red: #B13629;
+    Light Gray: #9D9D9D;
+    Gray: #515151;
+
+    Light Gray Background: #F4F4F4;
+
+    Use bootstraps classes for as much as possible
+    or makes sense for things like containers, grids,
+    ect...
+
+    Use bootstraps default padding and margins for all
+    elements (columns, header, paragraphs, ect...)
+
+    Don't worry about matching things to the
+    exact height, but use the above as guidelines
+-------------------------------------------------*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+header {
+    background-color: #B13629;
+    height: 138px;
+}
+
+h1 {
+    display: none;
+}
+
+.header__logo {
+    display: block;
+    margin: 0 auto;
+    padding: 3.5% 0;
+}
+
+.jumbotron {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../imgs/banner.jpg");
+    background-size: 100% auto;
+    background-color: #CCC;
+    color: #FFF;
+    height: 416px;
+}
+
+.jumbotron__header {
+    font-size: 70px;
+    font-weight: 600;
+    padding-top: 118px;
+    text-align: center;
+}
+
+.whatwedo {
+    height: 456px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.title {
+    color: #B13629;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.subtitle {
+    color: #9D9D9D;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 60px;
+}
+
+.whatwedo__service {
+    background-color: #B13629;
+    height: 195px;
+    text-align: center;
+}
+
+.whatwedo__service__text {
+    color: #FFF;
+    display: inline-block;
+    font-size: 32px; /* 45px (mentioned at top) did not seem to not match the screenshot */
+    font-weight: 600;
+    padding: 22.5% 0;
+}
+
+footer {
+    background-color: #F4F4F4;
+    height: 394px;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.footer__content {
+    width: 100%;
+}
+
+.footer__content__left {
+    display: inline-block;
+    margin-left: 40px;
+    text-align: left;
+    width: 540px;
+}
+
+.footer__content__left__text {
+    color: #515151;
+    line-height: 170%;
+    margin-top: 20px;
+}
+
+.footer__content__right {
+    display: inline-block;
+    border-radius: 50%;
+    margin-top: 25px;
+    overflow: hidden;
+    position: relative;
+    width: 202px;
+}
+
+.footer__content__right > img {
+    display: inline-block;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
