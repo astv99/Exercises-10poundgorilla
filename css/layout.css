@@ -130,6 +130,7 @@ footer {
     overflow: hidden;
     position: relative;
     width: 202px;
+    text-indent: -105px;
 }
 
 .footer__content__right > img {
